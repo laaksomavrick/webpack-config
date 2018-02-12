@@ -25,6 +25,12 @@ module.exports = {
           loader: 'babel-loader',
           // Exclude node_modules (3rd party)
           exclude: /node_modules/
+        },
+        {
+          // Does the file end in .vue?
+          test: /\.vue$/,
+          // Apply vue-loader to it
+          loader: 'vue-loader'
         }
 
     ]
