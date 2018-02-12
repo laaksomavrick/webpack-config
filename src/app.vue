@@ -9,7 +9,7 @@ export default {
 
   data: function() {
     return {
-      message: 'hello, world 2'
+      message: 'hello, world 5'
     }
   }
 
